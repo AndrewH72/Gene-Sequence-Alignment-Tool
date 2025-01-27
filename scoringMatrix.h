@@ -3,7 +3,7 @@
 
 class ScoringMatrix{
 private:
-  int matchScore, mismatchPenality, gapPenalty;
+  int matchScore, mismatchPenalty, gapPenalty;
 public:
   ScoringMatrix(int, int, int);
   int getMatchScore() const;
